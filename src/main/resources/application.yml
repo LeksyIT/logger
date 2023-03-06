@@ -2,7 +2,7 @@ spring:
   kafka:
     bootstrap-servers: localhost:9092
     topic: task
-    groupId: 1
+    groupId: 2
     consumer:
       group-id: 1
       auto-offset-reset: earliest
